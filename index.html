@@ -1,0 +1,307 @@
+<p style="color:#ff9800; font-weight:bold;">
+⚠️ Diese Website befindet sich noch in der Anfangsphase.
+</p><!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Friedel hilft</title>
+
+<style>.preise{
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+}.whatsapp-btn{
+    display:inline-block;
+    background:#25D366;
+    color:white;
+    text-decoration:none;
+    padding:12px 20px;
+    border-radius:12px;
+    font-size:20px;
+    font-weight:bold;
+    margin:10px 0;
+}.whatsapp-btn{
+    display:inline-block;
+    background:#25D366;
+    color:white;
+    text-decoration:none;
+    padding:10px 16px;
+    border-radius:12px;
+    font-size:18px;
+    font-weight:bold;
+}h2{
+    border-bottom:3px solid #4caf50;
+    padding-bottom:8px;
+h2{
+    border-bottom:3px solid #4caf50;
+    padding-bottom:8px;
+}}.feld{
+    width:100%;
+    padding:12px;
+    margin:8px 0;
+    border-radius:10px;
+    border:1px solid #ccc;
+    box-sizing:border-box;
+}
+
+textarea{
+    min-height:100px;
+}
+
+.preis{
+    background:#f7f7f7;
+    padding:15px;
+    border-radius:15px;
+    text-align:center;
+    border-left:6px solid #4caf50;
+}.ort{
+    background:#f8f8f8;
+    border-left:5px solid #4caf50;
+    padding:12px;
+    margin:10px 0;
+    border-radius:12px;
+}
+
+.preis h3{
+    margin:0;
+}
+
+.preis strong{
+    font-size:28px;
+    color:#4caf50;
+}<script>
+function zeigeMich() {
+  var x = document.getElementById("ueberMich");
+
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    background:#f2f2f2;
+}
+
+header{
+    background:linear-gradient(135deg,#4caf50,#2e7d32);
+    color:white;
+    text-align:center;
+    padding:40px 20px;
+    border-bottom-left-radius:25px;
+    border-bottom-right-radius:25px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.15);
+}
+
+
+header h1{
+    margin:0;
+    font-size:42px;
+}
+
+header p{
+    font-size:18px;
+}
+
+.box{transition:0.3s;
+    background:white;
+    margin:15px;
+    padding:20px;
+    border-radius:20px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}.box:hover{
+    transform:translateY(-3px);
+}
+
+.angebote{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.angebot{
+    color:white;
+    padding:20px;
+    border-radius:20px;
+    text-align:center;
+}
+
+.einkauf{
+    background:#ff9800;
+}
+
+.pfand{
+    background:#4caf50;
+}
+
+.altglas{
+    background:#2196f3;
+}
+
+.angebot h3{
+    margin:0;
+}
+
+.kontakt{
+    background:#4caf50;
+    color:white;
+    text-align:center;
+}
+
+.telefon{
+    font-size:40px;
+    font-weight:bold;
+    margin:15px 0;
+}
+
+.info{
+    background:rgba(255,255,255,0.2);
+    padding:10px;
+    border-radius:12px;
+    margin-top:15px;
+}
+
+button{
+    background:#4caf50;
+    color:white;
+    border:none;
+    padding:12px 20px;
+    border-radius:10px;
+    font-size:18px;
+}
+
+#ueberMich{
+    display:none;
+    margin-top:15px;
+}
+</style>
+</head>
+
+<script>
+function anfrageGesendet(){
+    document.getElementById("meldung").innerHTML =
+    "✅ Anfrage erfasst. Bitte zusätzlich kurz anrufen oder eine WhatsApp-Nachricht senden.";
+}
+</script>
+<body>
+
+<header>
+<h1>🚲 Friedel hilft</h1>
+<p>Kleine Hilfe direkt vor deiner Haustür</p>
+<p>📍 Manschnow • Gorgast • Küstrin-Kietz</p>
+</header>
+
+<div class="box">
+<h2>🛒 Angebote</h2>
+
+<div class="angebote">
+
+<div class="angebot einkauf">
+<h3>🛒 Einkäufe erledigen</h3>
+<p>Kleine Einkäufe für dich erledigen.</p>
+</div>
+
+<div class="angebot pfand">
+<h3>♻️ Pfand wegbringen</h3>
+<p>Pfandflaschen zurückbringen.</p>
+</div>
+
+<div class="angebot altglas">
+<h3>🍾 Altglas wegbringen</h3>
+<p>Altglas zum Container bringen.</p>
+</div>
+
+</div>
+</div>
+
+
+
+
+<div class="box">
+<h2>🗺️ Einsatzgebiet</h2>
+
+<div class="preise">
+
+<div class="preis">
+<h3>📍 Manschnow</h3>
+<strong>3,50 €</strong>
+</div>
+
+<div class="preis">
+<h3>📍 Gorgast</h3>
+<strong>4,50 €</strong>
+</div>
+
+<div class="preis">
+<h3>📍 Küstrin-Kietz</h3>
+<strong>5,00 €</strong>
+</div>
+
+</div>
+<p>
+🛒 Die Kosten für Einkäufe werden zusätzlich übernommen.
+</p>
+<p>In diesen Orten bin ich unterwegs.</p>
+</div>
+
+<div class="box">
+<div class="box">
+    <h2>👋 Über mich</h2>
+
+    <p>
+        Hallo, ich bin Friedrich aus Manschnow.
+    </p>
+        Ich bin 13Jahre alt
+    <p>
+        Ich helfe gerne bei kleinen Einkäufen,
+        Pfand und Altglas.
+    </p>
+
+    <p>
+        🚲 Schnell • 😊 Freundlich • ✅ Zuverlässig
+    </p>
+</div>
+    
+
+    <h2>📋 So funktioniert's</h2>
+
+    <p>1️⃣ Anrufen oder Nachricht senden</p>
+
+    <p>2️⃣ Auftrag besprechen</p>
+
+    <p>3️⃣ Ich erledige den Einkauf, das Pfand oder das Altglas</p>
+
+    <p>4️⃣ Übergabe und Bezahlung</p>
+</>
+<div class="box kontakt">
+<h2>📞 Kontakt</h2>
+
+<div class="telefon">
+<a 
+📱 WhatsApp schreiben
+</a>
+</div>
+<a <a href="https://wa.me/15239505006" target="_blank" class="whatsapp-btn">
+📱 WhatsApp schreiben<a href="tel:015239505006">📞 015239505006</a>
+</a>
+</>
+</a>
+<p>
+📱 WhatsApp<br>
+📞 Anruf<br>
+💬 Nachricht
+</p>
+
+<p>Termine nach Absprache möglich.</p>
+
+<div class="info">
+🤝 Schnell • Freundlich • Zuverlässig
+</div>
+<div class="box">
+ <footer style="text-align:center; padding:20px; color:gray;">
+🚲 © 2025–2026 Friedel hilft • Vielen Dank für Ihren Besuch
+ </footer>
